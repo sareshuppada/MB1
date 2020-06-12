@@ -16,6 +16,7 @@
         .jumbotron {
             background-color: #008DCF ;
             text-align: center;
+            padding-bottom: 10px;
         }
         #exampleInputEmail1{
             width: 300px;
@@ -70,7 +71,7 @@
           cursor:pointer;
           /*display:inline-block;*/
           color:#FFF;
-          font-size:1em;
+          font-size:1.25em;
           border-radius:4px;
           border:1px solid #bbb;
           transition: all 0.3s linear;
@@ -90,6 +91,24 @@
       color:rebeccapurple;
       font-size: 20px;
     }
+
+    .features {
+      text-align: center;
+      font-size: 25px;
+      color: #008DCF;
+      margin-top: 5px;
+    }
+
+    
+@media only screen and (max-width: 600px) {
+  .main-nav {
+      font-size: 1em;
+      padding: 0;
+  }
+
+  #apple{
+    margin-bottom: 40px;
+  }
         
 
         
@@ -97,17 +116,15 @@
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-fixed-top">
-        <a id ="main" class="navbar-brand animate__animated animate__flash" >Bank of Maharashtra</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a id ="main" class="navbar-brand animate__animated animate__flash" >Bank of Maharashtra|Mahamobile App</a>
+       
       
         
       </nav>
       <div class="jumbotron">
         <p class = "banklogo"><img src ="bank logo.jpg" alt ="Bank Logo"/></p>
         <img class ="Homepagelogo" src = "Homepage.jpg" alt ="Homepage"/>
-        <h1 class="display-4 animate__animated animate__backInDown">An Awesome MahaBank App!</h1>
+        <h1 class="display-4 animate__animated animate__backInDown">An Awesome MahaBank Mobile App!</h1>
         
        
         
@@ -115,13 +132,12 @@
       </div>
       <div class = "container">
           <div class="row" id="summary">
-              <p><h1>Why this App is Awesome?</h1></p>
-              
-              
+              <h1>Why this App is Awesome?</h1>
+                 
           </div>
       </div>
       <div class="container">
-
+        <p class ="features">Checkout Our App features!</p>
         <div class="card-group">
             <div class="card" >
               <img class="card-img-top" src="mainpage.jpg" alt="Card image cap"/>
@@ -158,7 +174,7 @@
           </div>
           <div class="card">
           <a href ="https://apps.apple.com/kz/app/maha-mobile/id909354984" target="_blank"> <img class="card-img-top" src="appstore.png" alt="Card image cap"/></a>
-            <p class ="download"><a  href ="https://apps.apple.com/kz/app/maha-mobile/id909354984" target="_blank">Download</a></p>
+            <p id ="apple" class ="download"><a  href ="https://apps.apple.com/kz/app/maha-mobile/id909354984" target="_blank">Download</a></p>
             
           </div>
           <div class="card">
